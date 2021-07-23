@@ -199,8 +199,7 @@
 //   return total = a+b;
 // }
   
-// var exp = sume(3,5);
-
+// var exp = sume(3,5); 
 
 //  console.log('the sum of these value' + exp );
 
@@ -211,7 +210,7 @@
 
 // var sum = funexp(5,8);
 // console.log("the sum of two no. is" + sum);
-  
+   
 
 // ***********************ECMA script*********************
 
@@ -219,7 +218,7 @@
 // function biodata(){
 //   var myfirstname ="naina";
 // console.log (myfirstname);
-
+ 
 // if(true){
 //   var mylastname ="kamthan"
 //   console.log('inner' + mylastname)
@@ -254,9 +253,7 @@
 // console.log("table of" num + "*" + i + "=" + (num *i) )
 // console.log(`table of ${num} * ${i} = ${num*i}`)
 
-
-
-// ..............default Parameteer..........
+// ..........................
 
 // function mult(a,b= 5){
 //   return a*b;
@@ -273,12 +270,10 @@
 
 // console.log (sum());  
 
-
-
-
-
 // ***********************ARRAY**************************
-// var arrn =  new Array;      new instance handle by java script
+
+// var arrn =  new Array;      
+// new instance handle by java script
 
 
 
@@ -310,20 +305,21 @@
 //   console.log( element + " having  index" + index + " " + array)
 // }); 
 
-// myname.forEach(( element, index, array) => {
+//  myname.forEach(( element, index, array) => {
 //   console.log( element + " having  index" + index + " " + array)
 // }); 
 
 // // index of
 // console.log(myname.indexOf("mummy"));
+
 let arr = [45, 10, 44, 88, 44, 66, 1, 2, 5];
 let line = "hello my Name is 3 baar blah";
-console.log(line.toUpperCase());
-console.log(line.toLowerCase());
-console.log(arr.indexOf(44));
-console.log(arr.lastIndexOf(44));
-console.log(line.indexOf("a"));
-console.log(line.lastIndexOf("a"));
+// console.log(line.toUpperCase());
+// console.log(line.toLowerCase());
+// console.log(arr.indexOf(44));
+// console.log(arr.lastIndexOf(44));
+// console.log(line.indexOf("a"));
+// console.log(line.lastIndexOf("a"));
 console.log(line.charAt(10));
 console.log(arr[8]);
 console.log(line.endsWith());
@@ -332,12 +328,12 @@ console.log(line.substring(6, 12));
 console.log(arr.slice(4));
 console.log(arr.slice(-4));
 console.log(arr.slice(4, 8));
-// arr.forEach(arr > 45)
-// {
-//   console.log(arr);
+arr.forEach(arr > 45)
+{
+  console.log(arr);
 // 
 
-
+ 
 // console.log( arr.join("*"))
 // console.log( arr.push(9))
 // console.log( arr)
@@ -360,17 +356,14 @@ console.log(arr.slice(4, 8));
 
 //console.log( arr.fill(5))
 
-console.log("hello world js");
+// console.log("hello world js");
 
-console.warn("Password in incorrect");
-console.info("Password in incorrect");
-console.error("Password in incorrect");
-console.count();
-console.count();
-console.count();
-console.error("Password in incorrect")
+// console.warn("Password in incorrect");
+// console.info("Password in incorrect");
+// console.error("Password in incorrect");
+// console.count("hello");
+// console.count();
+// console.count("hello");
+// // console.error("Password in incorrect")
 
-
- 
-
-
+// console.count()

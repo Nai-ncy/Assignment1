@@ -8,7 +8,7 @@ let mail = prompt("enter email id");
          alert("vaildemail");
         
  }
-     else{
+     else{  
          alert("invalid email please input vaild email eg(amjreh@email.com)");
     
     }
@@ -21,18 +21,21 @@ let mail = prompt("enter email id");
         alert("invalid password make a strong password ");
 
      }
+
      else if(pw.length<8 ) {
          alert("invalid password make a strong password");
         
      }
-     else (pw>15)
-         alert("correct password u can go");
+     else if(pw.length>10)  
+
+     alert("correct password u can go");
      
-    // else(
-    //       alert("correct password u can go")
+     else{
+           alert("correct password u can go")
       
-    
+     }
      console.log(pw);
 
 //let x  =   document.getElementById(" ");
-// console.log(x)    
+// console.log(x)  
+
